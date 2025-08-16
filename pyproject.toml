@@ -1,0 +1,18 @@
+[project]
+name = "ddl-conversion-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "asyncio>=4.0.0",
+    "dotenv>=0.9.9",
+    "mcp[cli]>=1.12.4",
+    "openai>=1.99.9",
+    "pydantic>=2.11.7",
+    "requests>=2.32.4",
+    "snowflake>=1.7.0",
+    "snowflake-core>=1.7.0",
+    "snowflake-snowpark-python>=1.36.0",
+    "streamlit>=1.48.1",
+]
