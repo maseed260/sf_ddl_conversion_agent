@@ -44,13 +44,13 @@ class SnowflakeQuery(BaseModel):
 session_state_messages = []
 
 connection_parameters = {
-    "account": "RYWNENJ-SAB31173",
-    "user": "ILYAS",
-    "password": "IlyasMaseed@260",
-    "warehouse": "COMPUTE_WH",
-    "role":"ACCOUNTADMIN",
-    "database":"ILYAS_DB",
-    "schema":"LLM_DEV"
+    "account": "",
+    "user": "",
+    "password": "",
+    "warehouse": "",
+    "role":"",
+    "database":",
+    "schema":""
 }
 
 session = Session.builder.configs(connection_parameters).create()
